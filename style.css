@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    text-align: center;
+    transition: transform 0.2s;
+    min-height: 500px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
